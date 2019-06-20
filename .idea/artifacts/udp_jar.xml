@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="udp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/udp_jar</output-path>
+    <root id="archive" name="udp.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/udp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="udp" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hyperic/sigar/1.6.4/sigar-1.6.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
